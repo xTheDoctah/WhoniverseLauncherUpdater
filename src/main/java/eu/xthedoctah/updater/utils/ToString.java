@@ -7,4 +7,8 @@ public class ToString {
     public String toString() {
         return new Gson().toJson(this);
     }
+
+    public void sout(){
+        System.out.println(this);
+    }
 }

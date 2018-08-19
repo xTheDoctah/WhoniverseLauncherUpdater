@@ -6,7 +6,7 @@ public class Version extends ToString {
     private static Version instance;
     private String updaterVersion = "1.0";
     private String launcherVersion = "1.0";
-    private String Token;
+    private String Token = "sadad";
 
     public static Version getInstance() {
         if (instance == null)
